@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+/* {
+   color: blue;
+}*/
+
+a {
+   color: rgb(165, 42, 142);
+}
+
+#classification-of-symbols {
+   color: aqua;
+}
+
+div {
+   color: orange;
+}
+
+.symvols {
+   color: blueviolet;
+}
+
+p.text {
+   color: rgb(0, 128, 32);
+}
+
+.list.classification {
+   color: green;
+}
+
+.symbols-uk,
+.embroidery-1 {
+   color: rgb(218, 48, 32);
+}
+
+.lesson p {
+   color: rgb(0, 255, 183);
+}
+
+.lesson .about {
+   color: blueviolet;
+}
+
+.list_2 * {
+   color: pink;
+}
+
+.lesson>p {
+   color: darkred;
+}
+
+.lesson~p {
+   color: darkolivegreen;
+}
+
+.lesson+p {
+   color: rgb(58, 0, 139);
+}
