@@ -1,0 +1,84 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,700,700italic&display=swap);
+
+@font-face {
+   font-family: 'Preciosa';
+   src: url('../fonts/Preciosa.woff2') format('woff2'),
+      url('../fonts/Preciosa.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+
+
+h1 {
+   font-family: "Unbounded";
+   font-weight: 700;
+   font-size: 26px;
+   color: darkblue;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 2px yellow;
+   text-transform: uppercase;
+   line-height: 1.8;
+}
+
+.main {
+   font-family: Preciosa;
+   font-size: 25px;
+   font-weight: 500;
+   color: blue;
+   text-align: justify;
+   text-decoration: none;
+   text-shadow: 1px 2px rgb(168, 252, 0);
+   text-indent: 20px;
+   line-height: 1.5;
+}
+
+h2 {
+   font-family: Roboto;
+   font-weight: 700;
+   font-style: italic;
+   font-size: 26px;
+   color: crimson;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   line-height: 2;
+}
+
+.paragraf p {
+   font-family: Preciosa;
+   font-weight: 300;
+   font-style: italic;
+   font-size: 22px;
+   color: deeppink;
+   text-shadow: 2px 2px lightgrey;
+   text-align: left;
+   text-indent: 30px;
+   line-height: 1.2;
+   word-spacing: 5px;
+}
+
+footer {
+   font-family: "Unbounded", Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   color: rgb(0, 97, 139);
+   text-align: right;
+   text-shadow: 2px 2px yellow;
+   text-transform: lowercase;
+   line-height: 1.8;
+}
+
+a {
+   font-family: Preciosa;
+   font-weight: 400;
+   font-size: 22px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
