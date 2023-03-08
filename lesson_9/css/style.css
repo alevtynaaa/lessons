@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap);
+
+[class*="_container"] {
+   max-width: 1470px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.images {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+
+.icons {
+   background: rgb(251, 242, 63);
+   background: radial-gradient(circle, rgba(251, 242, 63, 1) 0%, rgba(233, 88, 230, 1) 90%, rgba(70, 230, 252, 1) 100%);
+   margin: 0 auto;
+   margin-bottom: 30px;
+   padding: 0 30px;
+
+}
+
+.images_text-block {
+   max-width: 600px;
+   margin: 0 auto;
+   margin-bottom: 15px;
+}
+
+.images_text-block h2 {
+   font-family: "Roboto";
+   font-weight: 700;
+   font-size: 35px;
+   line-height: 1.2;
+   color: #760731;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   text-align: center;
+}
+
+.images_text-block p {
+   font-family: "Roboto";
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 1.2;
+   text-align: center;
+   color: darkslategrey;
+}
+
+.images_block {
+   max-width: 100%;
+   margin: 0 auto;
+
+}
+
+.elements_design {
+   background: rgb(251, 242, 63);
+   background: radial-gradient(circle, rgba(251, 242, 63, 1) 0%, rgba(233, 88, 103, 1) 90%, rgba(70, 230, 252, 1) 100%);
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.elements_design .images_block {
+   max-width: 500px;
+}
+
+.content_images {
+   background: rgb(251, 242, 63);
+   background: radial-gradient(circle, rgba(251, 242, 63, 1) 0%, rgba(233, 134, 88, 1) 90%, rgba(70, 230, 252, 1) 100%);
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
