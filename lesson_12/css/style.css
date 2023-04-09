@@ -1,0 +1,311 @@
+@import url(reset.css);
+@import url(common.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:600,900&display=swap);
+
+body {
+   font-family: "Poppins";
+   background-color: darkkhaki;
+   color: gray;
+   font-weight: 900;
+   text-align: center;
+   font-size: 24px;
+   letter-spacing: 2px;
+}
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+}
+
+.wrapper__page {}
+
+.page {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.page__container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.page__title {
+   margin: 0 auto;
+   font-size: 50px;
+   color: crimson;
+   text-shadow: 2px 2px 5px gray;
+   margin-bottom: 50px;
+}
+
+.page__translate {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: aquamarine;
+   width: 300px;
+   height: 300px;
+}
+
+.translate {}
+
+.translate__box {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   background-color: blue;
+   margin-bottom: 60px;
+}
+
+.translate__box:hover {
+   transform: translate(40px, 50px);
+}
+
+.translate__title {}
+
+.page__scale {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(255, 127, 206);
+   width: 300px;
+   height: 300px;
+}
+
+.scale {}
+
+.scale__box {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   border-radius: 50%;
+   background-color: darkmagenta;
+   margin-bottom: 60px;
+}
+
+.scale__box:hover {
+   transform: scale(2);
+}
+
+.scale__title {}
+
+.page__rotate {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(127, 255, 219);
+   width: 300px;
+   height: 300px;
+   padding: 50px;
+}
+
+.rotate {}
+
+.rotate__box {
+   width: 100px;
+   height: 150px;
+   margin: 0 auto;
+   background-color: rgb(5, 98, 89);
+   margin-bottom: 60px;
+
+}
+
+.rotate__box:hover {
+   background-color: blue;
+   transform: rotate(90deg);
+}
+
+.rotate__title {}
+
+.page__skew {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(246, 255, 127);
+   width: 300px;
+   height: 300px;
+   padding: 50px;
+}
+
+.skew {}
+
+.skew__box {
+   width: 150px;
+   height: 150px;
+   margin: 0 auto;
+   border-radius: 20%;
+   background-color: rgb(242, 133, 8);
+   margin-bottom: 60px;
+}
+
+.skew__box:hover {
+   transform: skew(20deg, 20deg);
+}
+
+.skew__title {}
+
+.page__matrix {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(255, 127, 144);
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+}
+
+.matrix {}
+
+.matrix__box {
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+   background-color: rgb(242, 8, 74);
+   margin-bottom: 60px;
+}
+
+.matrix__box:hover {
+   transform: matrix(2, 0, 2, 3, 50, 0);
+}
+
+.matrix__title {}
+
+.page__transform-origin {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(127, 159, 255);
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+}
+
+.transform-origin {}
+
+.transform-origin__box {
+   width: 100px;
+   height: 150px;
+   margin: 0 auto;
+   background-color: rgb(117, 8, 242);
+   margin-bottom: 60px;
+}
+
+.transform-origin__box:hover {
+   transform-origin: 0px 0px;
+   transform: rotate(45deg);
+}
+
+.page__perspective {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(127, 255, 178);
+   width: 300px;
+   height: 400px;
+   padding: 30px;
+   perspective-origin: center;
+   perspective: 400px;
+}
+
+.perspective {}
+
+.perspective__box {
+   width: 180px;
+   height: 180px;
+   margin: 0 auto;
+   background-color: rgb(3, 63, 63);
+   margin-bottom: 30px;
+}
+
+.perspective__box:hover {
+   transform: translate3D(20px, 20px, 0px);
+}
+
+.perspective__title {
+   font-size: 20;
+}
+
+.page__scale-3d {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(255, 127, 165);
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+   perspective-origin: center;
+   perspective: 100px;
+}
+
+.scale-3d {}
+
+.scale-3d__box {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   background-color: rgb(63, 3, 14);
+   margin-bottom: 30px;
+}
+
+.scale-3d__box:hover {
+   transform: scale3d(2, 2, 2);
+}
+
+.scale-3d__title {}
+
+.page__rotate-3d {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(136, 255, 127);
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+   perspective-origin: center;
+   perspective: 300px;
+}
+
+.rotate-3d {}
+
+.rotate-3d__box {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   background-color: rgb(3, 63, 19);
+   margin-bottom: 30px;
+}
+
+.rotate-3d__box:hover {
+   transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.rotate-3d__title {}
+
+.page__multi-3d {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   background-color: rgb(197, 127, 255);
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+   perspective-origin: center;
+   perspective: 300px;
+}
+
+
+.multi-3d {}
+
+.multi-3d__box {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   background-color: rgb(48, 3, 63);
+   margin-bottom: 30px;
+}
+
+.multi-3d__box:hover {
+   transform: translate3d(20px, 20px, 20px) rotate3d(1, 1, 1, 20deg);
+}
+
+.page__link {
+
+   color: rgb(13, 0, 255);
+   font-size: 50px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 20px;
+}
+
+.page__link:hover {
+   color: darkred;
+}
